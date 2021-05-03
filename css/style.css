@@ -31,7 +31,12 @@ header a {
 .acessibilidade__menu{
     display: flex;
 }
-
+.acessibilidade__menu, .sites select{
+    margin: 0 1em;
+}
+.acessibilidade__sumario{
+    width: 50%;
+}
 .contraste__zero, .contraste__branco, .contraste__preto, .contraste__azul{
     width: 14px;
     height: 14px;
@@ -56,10 +61,16 @@ header a {
 .cabecalho__principal{
     display: flex;
     justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    margin: 0 1em;
 }
 .cabecalho__principal ul{
     display: flex;
     align-items: center;
+}
+.cabecalho__principal ul li:first-child{
+    margin-right: 1em;
 }
 
 /* MAIN */
@@ -98,6 +109,13 @@ header a {
     align-items: center;
 }
 
+.buscar__form form button{
+    background: none;
+    border: 1px solid white;
+    padding: 2px;
+    color: white;
+    border-radius: 3px;
+}
 /* hoteis */
 .conteudo__hotel{
     display: flex;
@@ -109,6 +127,7 @@ header a {
     margin: 1em;
 }
 .card img{
+    height: 160px;
     width: 100%;
 }
 .card__botoes{
@@ -120,6 +139,7 @@ header a {
     background: none;
 }
 .card__comprar{
+    color: white;
     background-color: green;
     border: none;
     padding: 0.5em;
