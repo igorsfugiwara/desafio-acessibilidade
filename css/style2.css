@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #e5e5e5;
+
+}
+.resumo, .hoteis h2{
+    background-color: #fff;
+}
+/* RESUMO*/
+.resumo{
+    display: flex;
+    padding: 1em;
+}
+.ondeestou{
+    font-size: 18px;
+    color: #787878;
+}
+.txt{
+    margin: 1em;
+}
+.txt__titulo{
+    display: flex;
+    font-size: 42px;
+}
+.txt__titulo img{
+    width: 27px;
+    height: 33px;
+}
+.txt p{
+    color: #444444;
+    margin-top: 1em;
+}
+figcaption{
+    color: #444;
+    font-size: 14px;
+}
+
+/* CONTEUDO */
+.hoteis{
+    margin: 0 1em;
+}
+
+.hoteis h2{
+    color: #0093E5;
+    border-bottom: 5px solid #0093E5;
+    font-size: 18px;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    padding: 10px;
+}
+.hoteis p{
+    font-size: 24px;
+}
+.hoteis p:first-child(){
+    margin: 1em;
+}
+.hoteis article{
+    display: flex;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin: 1em 0;
+    background-color: #fff;
+}
+.hoteis__nome p{
+    font-size: 18px;
+    color: #787878;
+}
+.hoteis__nome h3{
+    font-size: 36px;
+}
+.hoteis__nome--estrelas, .hoteis__nome--servico, .hoteis__preco, .hoteis__nome--estrelas, .hoteis__nome--servico, .hoteis__compartilhar{
+    color: #787878;
+}
+.hoteis__preco--preco p{
+    color: black;
+    font-size: 36px;
+    
+}
+.divs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.div1, .div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hoteis__compartilhar i{
+    display: flex;
+    justify-content: flex-end;
+}
+.hoteis__botoes button{
+    font-size: 18px;
+    color: #0093E5;
+}
+.hoteis__botoes--detalhes{
+    padding: 0.5em;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.hoteis__botoes--reservar{
+    padding: 0.5em;
+        border: 1px solid #ececec;
+        border-radius: 5px;
+        background: none;
+        font-weight: 700;
+}
+.emlinha{
+    display: flex;
+    align-items: center;
+}
