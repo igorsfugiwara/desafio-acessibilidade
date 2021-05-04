@@ -42,10 +42,15 @@ figcaption{
 }
 
 /* CONTEUDO */
+span{
+    font-weight: 700;
+}
+.resultado__pesquisa{
+    margin: 1em 0;
+}
 .hoteis{
     margin: 0 1em;
 }
-
 .hoteis h2{
     color: #0093E5;
     border-bottom: 5px solid #0093E5;
@@ -75,7 +80,7 @@ figcaption{
 .hoteis__nome h3{
     font-size: 36px;
 }
-.hoteis__nome--estrelas, .hoteis__nome--servico, .hoteis__preco, .hoteis__nome--estrelas, .hoteis__nome--servico, .hoteis__compartilhar{
+.hoteis__nome--estrelas, .hoteis__nome--servicos, .hoteis__preco, .hoteis__nome--estrelas, .hoteis__nome--servico, .hoteis__compartilhar{
     color: #787878;
 }
 .hoteis__preco--preco p{
@@ -88,11 +93,13 @@ figcaption{
     display: flex;
     justify-content: space-between;
     margin: 1em;
+    
 }
 .div1, .div2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
 }
 .hoteis__compartilhar i{
     display: flex;
@@ -119,4 +126,49 @@ figcaption{
 .emlinha{
     display: flex;
     align-items: center;
+}
+
+@media(max-width: 450px){
+    .resumo{
+        display: block;
+    }
+    figure img{
+        width: 100%;
+    }
+    .ondeestou{
+        font-size: 12px;
+    }
+    .txt__titulo h1{
+        font-size: 30px;
+    }
+    .txt p:last-child{
+        display: none;
+    }
+    .hoteis article{
+        display: block;
+    }
+    figure img{
+        width: 100%;
+    }
+    .divs{
+        display: block;
+        margin: 0;
+        padding: 22px;
+    }
+    .emlinha{
+        display: block;
+    }
+    .emlinha h3{
+        font-size: 24px;
+    }
+    .hoteis__preco--preco{
+        font-size: 30px;
+    }
+    .hoteis__compartilhar{
+        width: 90%;
+        font-size: 25px;
+    }
+    .hoteis__nome--servicos{
+        display: none;
+    }
 }
