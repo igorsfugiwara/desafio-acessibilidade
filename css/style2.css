@@ -1,191 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 body {
-    background-color: #e5e5e5;
-
+  background-color: #e5e5e5;
 }
 
 .resumo,
 .hoteis h2 {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 /* CABEÇALHO */
 header {
-    background-color: #253e99;
-    color: white;
+  background-color: #253e99;
+  color: white;
 }
 
 header ul {
-    list-style: none;
-    display: flex;
-    font-size: 0.8em;
+  list-style: none;
+  display: flex;
+  font-size: 0.8em;
 }
 
 header a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .acessibilidade {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    padding: 0.5em 1em;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 0.5em 1em;
 }
 
 .acessibilidade__menu {
-    display: flex;
+  display: flex;
 }
 
 ,
 .acessibilidade__menu ul li:first-child {
-    padding: 0 0.5em;
+  padding: 0 0.5em;
 }
 
 .acessibilidade__menu,
 .sites select {
-    margin: 0 1em;
-    border: none;
+  margin: 0 1em;
+  border: none;
 }
 
 .acessibilidade__sumario {
-    width: 50%;
+  width: 50%;
 }
 
 .contraste__zero,
 .contraste__branco,
 .contraste__preto,
 .contraste__azul {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
 }
 
 .contraste__zero {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .contraste__branco {
-    background-color: white;
-    border: 1px solid black;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .contraste__preto {
-    background-color: black;
-    border: 1px solid white;
+  background-color: black;
+  border: 1px solid white;
 }
 
 .contraste__azul {
-    background-color: rgb(12, 0, 119);
-    border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(12, 0, 119);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .cabecalho__principal {
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-    align-items: center;
-    margin: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  margin: 0 1em;
+  width: 100%;
 }
 
 .cabecalho__principal ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .cabecalho__principal ul li:first-child {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 /* RESUMO*/
 .resumo {
-    display: flex;
-    padding: 1em;
+  display: flex;
+  padding: 1em;
 }
 
 .ondeestou {
-    font-size: 18px;
-    color: #787878;
+  font-size: 18px;
+  color: #787878;
 }
 
 .txt {
-    margin: 1em;
+  margin: 1em;
 }
 
 .txt__titulo {
-    display: flex;
-    font-size: 42px;
+  display: flex;
+  font-size: 42px;
 }
 
 .txt__titulo img {
-    width: 27px;
-    height: 33px;
+  width: 27px;
+  height: 33px;
 }
 
 .txt p {
-    color: #444444;
-    margin-top: 1em;
+  color: #444444;
+  margin-top: 1em;
 }
 
 figcaption {
-    color: #444;
-    font-size: 14px;
+  color: #444;
+  font-size: 14px;
 }
 
 /* CONTEUDO */
 span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .resultado__pesquisa {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 .hoteis {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 .hoteis h2 {
-    color: #0093E5;
-    border-bottom: 5px solid #0093E5;
-    font-size: 18px;
-    display: flex;
-    width: 150px;
-    justify-content: center;
-    padding: 10px;
+  color: #0093e5;
+  border-bottom: 5px solid #0093e5;
+  font-size: 18px;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .hoteis p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .hoteis p:first-child() {
-    margin: 1em;
+  margin: 1em;
 }
 
 .hoteis article {
-    display: flex;
-    border: 1px solid #cdcdcd;
-    border-radius: 5px;
-    margin: 1em 0;
-    background-color: #fff;
+  display: flex;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  margin: 1em 0;
+  background-color: #fff;
 }
 
 .hoteis__nome p {
-    font-size: 18px;
-    color: #787878;
+  font-size: 18px;
+  color: #787878;
 }
 
 .hoteis__nome h3 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .hoteis__nome--estrelas,
@@ -194,225 +194,240 @@ span {
 .hoteis__nome--estrelas,
 .hoteis__nome--servico,
 .hoteis__compartilhar {
-    color: #787878;
+  color: #787878;
 }
 
 .hoteis__preco--preco p {
-    color: black;
-    font-size: 36px;
-
+  color: black;
+  font-size: 36px;
 }
 
-.divs {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-
+.hoteis__detalhes {
+  display: flex;
+  margin: 1em;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
 }
 
-.div1,
-.div2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
+.hoteis__detalhes > :last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.hoteis__compartilhar i {
-    display: flex;
-    justify-content: flex-end;
+.hoteis__comodidades {
+  display: flex;
+  flex-direction: column;
+}
+
+.hoteis__compartilhar {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hoteis__compartilhar button {
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .hoteis__botoes button {
-    font-size: 18px;
-    color: #0093E5;
+  font-size: 18px;
+  color: #0093e5;
 }
 
 .hoteis__botoes--detalhes {
-    padding: 0.5em;
-    border: none;
-    background: none;
-    text-decoration: underline;
+  padding: 0.5em;
+  border: none;
+  background: none;
+  text-decoration: underline;
 }
 
 .hoteis__botoes--reservar {
-    padding: 0.5em;
-    border: 1px solid #ececec;
-    border-radius: 5px;
-    background: none;
-    font-weight: 700;
+  padding: 0.5em;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background: none;
+  font-weight: 700;
 }
 
 .emlinha {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* RODAPÉ */
 .rodape {
-    background-color: grey;
-    color: white;
+  background-color: grey;
+  color: white;
 }
 
 .institucional {
-    display: flex;
-    padding-top: 1em;
+  display: flex;
+  padding-top: 1em;
 }
 
 .sobrenos ul,
 .faq ul {
-    list-style: none;
-    margin: 0 2em;
+  list-style: none;
+  margin: 0 2em;
 }
 
 .sobrenos ul li a,
 .faq ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .redessociais {
-    text-align: center;
-    padding-bottom: 2em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.redessociais a:visited {
+  color: black;
 }
 
 .redessociais ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 1em;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 1em;
 }
 
 .redessociais ul li {
-    margin: 0 0.5em;
+  margin: 0 0.5em;
 }
 
 /* MEDIA QUERYS */
-@media(max-width: 450px) {
-    .acessibilidade {
-        justify-content: center;
-        font-size: 20px;
-        align-items: center;
-    }
+@media (max-width: 450px) {
+  .acessibilidade {
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+  }
 
-    .acessibilidade__sumario {
-        display: none;
-    }
+  .acessibilidade__sumario {
+    display: none;
+  }
 
-    .acessibilidade__menu ul {
-        align-items: center;
-    }
+  .acessibilidade__menu ul {
+    align-items: center;
+  }
 
-    .acessibilidade__menu ul li {
-        padding: 0 0.5em;
-    }
+  .acessibilidade__menu ul li {
+    padding: 0 0.5em;
+  }
 
-    .sites {
-        display: none;
-    }
+  .sites {
+    display: none;
+  }
 
-    .cabecalho__principal {
-        height: auto;
-    }
+  .cabecalho__principal {
+    height: auto;
+  }
 
-    .resumo {
-        display: block;
-    }
+  .resumo {
+    display: block;
+  }
 
-    figure img {
-        width: 100%;
-        border-radius: 5px;
-    }
+  figure img {
+    width: 100%;
+    border-radius: 5px;
+  }
 
-    article {
-        border-radius: 5px;
-    }
+  article {
+    border-radius: 5px;
+  }
 
-    .ondeestou {
-        font-size: 12px;
-    }
+  .ondeestou {
+    font-size: 12px;
+  }
 
-    .txt__titulo h1 {
-        font-size: 30px;
-    }
+  .txt__titulo h1 {
+    font-size: 30px;
+  }
 
-    .txt p:last-child {
-        display: none;
-    }
+  .txt p:last-child {
+    display: none;
+  }
 
-    .hoteis article {
-        display: block;
-    }
+  .hoteis article {
+    display: block;
+  }
 
-    figure img {
-        width: 100%;
-    }
+  figure img {
+    width: 100%;
+  }
 
-    .divs {
-        display: flex;
-        margin: 0;
-        padding: 0.5em;
-    }
+  .divs {
+    display: flex;
+    margin: 0;
+    padding: 0.5em;
+  }
 
-    .emlinha {
-        display: block;
-    }
+  .emlinha {
+    display: block;
+  }
 
-    .emlinha h3 {
-        font-size: 24px;
-    }
+  .emlinha h3 {
+    font-size: 24px;
+  }
 
-    .hoteis__preco--preco {
-        font-size: 30px;
-    }
+  .hoteis__preco--preco {
+    font-size: 30px;
+  }
 
-    .hoteis__compartilhar {
-        width: 90%;
-        font-size: 25px;
-    }
+  .hoteis__compartilhar {
+    width: 90%;
+    font-size: 25px;
+  }
 
-    .hoteis__nome--servicos {
-        display: none;
-    }
+  .hoteis__nome--servicos {
+    display: none;
+  }
 
-    .hoteis__botoes {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .hoteis__botoes .hoteis__botoes--reservar {
-        background-color: #0093e5;
-        color: white;
-    }
-}
-@media (max-width:1024px){
-    .hoteis__preco--preco p{
-        font-size: 30px;
-    font-weight: 700;
-    }
-    .hoteis__botoes{
-        display: flex;
+  .hoteis__botoes {
+    display: flex;
     justify-content: flex-end;
-    }
-    figure{
-        display: block;
-    }
-    .txt{
-        margin: 0 1em;
-    }
-    .ondeestou{
-        margin: 0;
-        font-size: 14px;
-    }
-    .txt__titulo h1{
-        font-size: 34px;
-    }
-    .acessibilidade__sumario{
-        width: 40%;
-    }
-    .cabecalho__principal{
-        height: auto;
+  }
+
+  .hoteis__botoes .hoteis__botoes--reservar {
+    background-color: #0093e5;
+    color: white;
+  }
+}
+@media (max-width: 1024px) {
+  .hoteis__preco--preco p {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .hoteis__botoes {
+    display: flex;
+    justify-content: flex-end;
+  }
+  figure {
+    display: block;
+  }
+  .txt {
+    margin: 0 1em;
+  }
+  .ondeestou {
+    margin: 0;
+    font-size: 14px;
+  }
+  .txt__titulo h1 {
+    font-size: 34px;
+  }
+  .acessibilidade__sumario {
+    width: 40%;
+  }
+  .cabecalho__principal {
+    height: auto;
     padding: 1em;
-    }
+  }
 }
