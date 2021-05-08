@@ -118,10 +118,7 @@ header a {
 
 .txt {
   margin: 1em;
-<<<<<<< HEAD
   width: 75%;
-=======
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
 }
 
 .txt__titulo {
@@ -212,24 +209,18 @@ span {
   justify-content: space-between;
   width: 100%;
   position: relative;
-<<<<<<< HEAD
 }
 .hoteis__detalhes > :first-child{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-=======
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
 }
 
 .hoteis__detalhes > :last-child {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-<<<<<<< HEAD
   margin-right: 2em;
-=======
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
 }
 
 .hoteis__comodidades {
@@ -305,11 +296,7 @@ span {
 }
 
 .redessociais a:visited {
-<<<<<<< HEAD
   color: rgb(255, 255, 255);
-=======
-  color: black;
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
 }
 
 .redessociais ul {
@@ -380,11 +367,7 @@ span {
     display: block;
   }
 
-<<<<<<< HEAD
 .resumo figure img {
-=======
-  figure img {
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
     width: 100%;
   }
 
@@ -407,11 +390,7 @@ span {
   }
 
   .hoteis__compartilhar {
-<<<<<<< HEAD
     margin: 0 1em;
-=======
-    width: 90%;
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
     font-size: 25px;
   }
 
@@ -451,14 +430,10 @@ span {
   .txt__titulo h1 {
     font-size: 34px;
   }
-<<<<<<< HEAD
  .txt__titulo h3{
    font-size: 30px;
  }
    .acessibilidade__sumario {
-=======
-  .acessibilidade__sumario {
->>>>>>> 4883473bde68a052a1b41104ba112c4b9b0aa0c6
     width: 40%;
   }
   .cabecalho__principal {
