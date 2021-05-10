@@ -8,80 +8,72 @@
   <title>Hoteis em São Paulo - Gulliver Traveller</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" />
+    crossorigin="anonymous"/>
   <link rel="stylesheet" href="./css/style2.css" />
 </head>
 
 <body>
   <header class="cabecalho">
-    <section class="acessibilidade">
-      <!-- <div class="acessibilidade__sumario">
+    <section aria-label="Menu de acessibilidade" class="acessibilidade">
+      <div aria-label="Sumário de atalhos" class="acessibilidade__sumario">
           <ul>
             <li>
-              <a href=""> Ir para conteúdo [1] </a>
+              <a tabindex="0" title="Ir para conteúdo" href="#"> Ir para conteúdo [1] </a>
             </li>
             <li>
-              <a href=""> Ir para menu [2] </a>
+              <a tabindex="0" title="Ir para menu" href="#"> Ir para menu [2] </a>
             </li>
             <li>
-              <a href=""> Ir para rodapé [3] </a>
+              <a tabindex="0" title="Ir para rodapé" href="#"> Ir para rodapé [3] </a>
             </li>
           </ul>
         </div>
-        <div class="acessibilidade__menu">
+        <div aria-label="" class="acessibilidade__menu">
           <ul>
             <li>
-              <a title="Acesse o menu de acessibilidade" href="#">
-                <i class="fab fa-accessible-icon"></i>Acessibilidade</a
-              >
+              <a tabindex="0" title="Acesse o menu de acessibilidade" href="#">
+                <i class="fab fa-accessible-icon"></i>Acessibilidade</a>
             </li>
             <li class="contraste__zero">
-              <a title="Site sem contraste" href="#"></a>
+              <a tabindex="0" title="Site sem contraste" href="#"></a>
             </li>
             <li class="contraste__branco">
-              <a title="Site com  alto contraste branco" href="#"></a>
+              <a tabindex="0" title="Site com  alto contraste branco" href="#"></a>
             </li>
             <li class="contraste__preto">
-              <a title="Site com  alto contraste preto" href="#"></a>
+              <a tabindex="0" title="Site com  alto contraste preto" href="#"></a>
             </li>
             <li class="contraste__azul">
-              <a title="Site com  alto contraste azul" href="#"></a>
+              <a tabindex="0" title="Site com  alto contraste azul" href="#"></a>
             </li>
             <li>
-              <a
-                title="Clique para retornar ao tamanho original da fonte do site"
-                href="#"
-                >A-</a
-              >
+              <a tabindex="0" title="Clique para retornar ao tamanho original da fonte do site" href="#">A-</a>
             </li>
             <li>
-              <a
-                title="Clique para aumentar o tamanho original da fonte do site"
-                href="#"
-                >A+</a
+              <a tabindex="0" title="Clique para aumentar o tamanho original da fonte do site" href="#">A+</a
               >
             </li>
           </ul>
         </div>
         <div class="sites">
-          <select name="Idioma/Moeda" id="">
+          <select tabindex="0" aria-label="Selecione Idioma do Site" name="Idioma/Moeda" id="">
             <option value="pt-br">
-              <a href="">Português do Brasil - Real</a>
+              <a title="Site em Português do Brasil" href="">Português do Brasil - Real</a>
             </option>
             <option value="en-usa">
-              <a href="">Inglês Americano - Dólar</a>
+              <a title="Site em Inglês dos Estados Unidos" href="#">Inglês Americano - Dólar</a>
             </option>
             <option value="sp-sp">
-              <a href="">Espanhol Ibérico - Euro</a>
+              <a title="Site em Espanhol da Espanha" href="">Espanhol Ibérico - Euro</a>
             </option>
           </select>
         </div>
         <div class="ajuda">
-          <a href="">
+          <a tabindex="0" title="Acessar menu de ajuda" href="">
             <i class="fas fa-question-circle"></i>
           </a>
         </div>
-      </section> -->
+      </section>
       <section class="cabecalho__principal">
         <h1>
           <a href="#" aria-label="Portal Gullizer Traveller - Tudo para viagens">Gulliver Traveller</a>
