@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
+:root {
+  --fontDefaultSize: 16px;
+  --whiteColor: white;
+  --blackColor: black;
+  --fontColorBlack: #444444;
+  --footerColor: grey;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,17 +17,17 @@
 
 body {
   background-color: #e5e5e5;
+  font-size: var(--fontDefaultSize);
 }
 
 .resumo,
 .hoteis h2 {
-  background-color: #fff;
+  background-color: var(--whiteColor);
 }
 
 /* CABEÇALHO */
 header {
   background-color: #253e99;
-  color: white;
 }
 
 header ul {
@@ -29,15 +37,19 @@ header ul {
 }
 
 header a {
-  color: white;
+  color: var(--whiteColor);
   text-decoration: none;
 }
 
 .acessibilidade {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 0.5em 1em;
+}
+
+.acessibilidade li {
+  margin: 0px 0.8rem;
 }
 
 .acessibilidade__menu {
@@ -93,7 +105,6 @@ header a {
   height: 10vh;
   align-items: center;
   margin: 0 1em;
-
 }
 
 .cabecalho__principal ul {
@@ -112,18 +123,17 @@ header a {
 }
 
 .ondeestou {
-  font-size: 18px;
-  color: #787878;
+  font-size: 1.125rem;
 }
 
 .txt {
-  margin: 1em;
+  margin: 1rem;
   width: 75%;
 }
 
 .txt__titulo {
   display: flex;
-  font-size: 42px;
+  font-size: 2.625rem;
 }
 
 .txt__titulo img {
@@ -131,14 +141,18 @@ header a {
   height: 33px;
 }
 
+.txt__titulo h3 {
+  color: var(--fontColorBlack);
+}
+
 .txt p {
-  color: #444444;
+  color: var(--fontColorBlack);
   margin-top: 1em;
 }
 
 figcaption {
   color: #444;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* CONTEUDO */
@@ -177,16 +191,17 @@ span {
   border: 1px solid #cdcdcd;
   border-radius: 5px;
   margin: 1em 0;
-  background-color: #fff;
+  background-color: var(--whiteColor);
 }
 
 .hoteis__nome p {
-  font-size: 18px;
-  color: #787878;
+  font-size: 1.125rem;
+  color: var(--fontColorBlack);
 }
 
 .hoteis__nome h3 {
-  font-size: 36px;
+  font-size: 2rem;
+  color: var(--fontColorBlack);
 }
 
 .hoteis__nome--estrelas,
@@ -195,12 +210,12 @@ span {
 .hoteis__nome--estrelas,
 .hoteis__nome--servico,
 .hoteis__compartilhar {
-  color: #787878;
+  color: var(--fontColorBlack);
 }
 
 .hoteis__preco--preco p {
-  color: black;
-  font-size: 36px;
+  color: var(--fontColorBlack)
+  font-size: 2rem;
 }
 
 .hoteis__detalhes {
@@ -210,7 +225,7 @@ span {
   width: 100%;
   position: relative;
 }
-.hoteis__detalhes > :first-child{
+.hoteis__detalhes > :first-child {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -243,7 +258,7 @@ span {
 }
 
 .hoteis__botoes button {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #0093e5;
 }
 
@@ -258,7 +273,7 @@ span {
   padding: 0.5em;
   border: 1px solid #ececec;
   border-radius: 5px;
-  background: none;
+  background: white;
   font-weight: 700;
 }
 
@@ -269,8 +284,8 @@ span {
 
 /* RODAPÉ */
 .rodape {
-  background-color: grey;
-  color: white;
+  background-color: var(--footerColor);
+  color: var(--fontColorBlack);
 }
 
 .institucional {
@@ -314,7 +329,7 @@ span {
 @media (max-width: 450px) {
   .acessibilidade {
     justify-content: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     align-items: center;
   }
 
@@ -340,6 +355,7 @@ span {
 
   .resumo {
     display: block;
+    background-color: var(--whiteColor);
   }
 
   figure img {
@@ -352,11 +368,11 @@ span {
   }
 
   .ondeestou {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .txt__titulo h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .txt p:last-child {
@@ -367,7 +383,7 @@ span {
     display: block;
   }
 
-.resumo figure img {
+  .resumo figure img {
     width: 100%;
   }
 
@@ -386,12 +402,13 @@ span {
   }
 
   .hoteis__preco--preco {
-    font-size: 30px;
+    font-size: 1.5rem;
+    color: var(--fontColorBlack);
   }
 
   .hoteis__compartilhar {
     margin: 0 1em;
-    font-size: 25px;
+    font-size: 1.563rem;
   }
 
   .hoteis__nome--servicos {
@@ -403,14 +420,10 @@ span {
     justify-content: flex-end;
   }
 
-  .hoteis__botoes .hoteis__botoes--reservar {
-    background-color: #0093e5;
-    color: white;
-  }
 }
 @media (max-width: 1024px) {
   .hoteis__preco--preco p {
-    font-size: 30px;
+    font-size: 1.2rem;
     font-weight: 700;
   }
   .hoteis__botoes {
@@ -425,15 +438,15 @@ span {
   }
   .ondeestou {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .txt__titulo h1 {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
- .txt__titulo h3{
-   font-size: 30px;
- }
-   .acessibilidade__sumario {
+  .txt__titulo h3 {
+    font-size: 1.875rem;
+  }
+  .acessibilidade__sumario {
     width: 40%;
   }
   .cabecalho__principal {
